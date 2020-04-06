@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.FlipkartTestScript.Cart"/>
+      <class name="com.FlipkartTestScript.Capture_Price"/>
+      <class name="com.FlipkartTestScript.Add_To_Wishlist"/>
+      <class name="com.FlipkartTestScript.Profile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
